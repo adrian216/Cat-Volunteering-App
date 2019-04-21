@@ -19,10 +19,10 @@ import java.util.List;
 public class VokraContentFetcher implements WebsiteContentFetcher<List<Cat>>
 {
 
-    private static final String LOGIN_URL = "http://www.orphankittenrescue.com/~pencilneck_cms/index.cfm?act=main&do=login&noauth=true";
-    private static final String AVAILABLE_CATS_URL = "http://www.orphankittenrescue.com/~pencilneck_cms/index.cfm?act=customCMS&do=main&CMSact=CatManager&CMSdo=main";
-    private static final String VOKRA_USERNAME = "K Arbez";
-    private static final String VOKRA_PASSWORD = "inuyasha6";
+    private static final String LOGIN_URL = "link";
+    private static final String AVAILABLE_CATS_URL = "link2";
+    private static final String VOKRA_USERNAME = "--";
+    private static final String VOKRA_PASSWORD = "---";
 
     @Override
     public List<Cat> fetch()
